@@ -7,7 +7,7 @@ import Home from './pages/home';
 import CadastroVideo from './pages/cadastro/videos';
 import CadastroCategoria from './pages/cadastro/categoria';
 
-const Pagina404 = () => (<div>Página 404</div>)
+const Pagina404 = () => (<div>Página 404</div>);
 
 ReactDOM.render(
   <BrowserRouter>
@@ -21,5 +21,5 @@ ReactDOM.render(
     </Switch>
 
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
